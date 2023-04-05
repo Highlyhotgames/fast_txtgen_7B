@@ -55,7 +55,7 @@ close notepad, click on save; close prompt
 when WSL installation ends, enter a new username and pwd
 
 
-—> git clone https://github.com/Highlyhotgames/txtgen.git && cd txtgen && chmod +x requirements.run && chmod +x install_1 && chmod +x install_2 && ./requirements
+—> git clone https://github.com/Highlyhotgames/txtgen.git && cd txtgen && chmod +x requirements && chmod +x install_1 && chmod +x install_2 && ./requirements
 
 
 enter pwd; after insert line, wait for message to close terminal
