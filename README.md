@@ -55,7 +55,7 @@ close notepad, click on save; close prompt
 when WSL installation ends, enter a new username and pwd
 
 
-—> git clone https://github.com/Highlyhotgames/txtgen.git && cd txtgen && chmod +x requirements && chmod +x install_1 && chmod +x install_2 && ./requirements
+—> git clone https://github.com/Highlyhotgames/txtgen.git && cd txtgen && chmod +x requirements && chmod +x install && mv install ../ && mv requirements ../ && cd .. & ./requirements
 
 
 enter pwd; after insert line, wait for message to close terminal
@@ -78,9 +78,8 @@ check for updates - it will get an update for WSL, after that go back to Admin p
 close prompt; wait 8s; open Ubuntu
 
 
-—> cd txtgen && ./install_1
+—> ./install
 
-—> ./install_2
 
 	Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
 
