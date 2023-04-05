@@ -78,7 +78,9 @@ check for updates - it will get an update for WSL, after that go back to Admin p
 close prompt; wait 8s; open Ubuntu
 
 
-—> cd txtgen && ./install_1 && ./install_2
+—> cd txtgen && ./install_1
+
+—> ./install_2
 
 	Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
 
