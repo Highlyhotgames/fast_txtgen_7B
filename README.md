@@ -108,9 +108,7 @@ To start server, open Ubuntu:
 	
 Run:
 
-	
-
-
+	python server.py --wbits 4 --model llama-7b-4bit-128g --groupsize 128 --chat
 
 
 
