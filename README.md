@@ -84,8 +84,9 @@ close prompt; wait 8s; open Ubuntu
 	Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
 
 
-	After model completes loading, if you see a last line saying
-	"To create a public link, set `share=True` in `launch()`.", then you can open your browser and enter this URL:
+	After model completes loading, if last line says
+	"To create a public link, set `share=True` in `launch()`.",
+	then you can open your browser and enter this URL:
 
 
 —> http://127.0.0.1:7860
