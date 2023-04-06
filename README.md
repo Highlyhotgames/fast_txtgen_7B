@@ -34,20 +34,20 @@ Instructions:
 
 Start menu; type cmd and click on “run as administrator”
 
-—> wsl --install
+	wsl --install
 
 restart PC; while WSL continues installation, start menu; type cmd and open
 
-—> notepad .wslconfig
+	notepad .wslconfig
 
 click on yes to create a new file; copy and paste the content below
 
 
-[wsl2]
-memory=6GB
-processors=2
-swap=20GB
-localhostforwarding=true
+	[wsl2]
+	memory=6GB
+	processors=2
+	swap=20GB
+	localhostforwarding=true
 
 
 close notepad, click on save; close prompt
@@ -55,7 +55,7 @@ close notepad, click on save; close prompt
 when WSL installation ends, enter a new username and pwd
 
 
-—> git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git && cd fast_txtgen_7B && chmod +x requirements && ./requirements
+	git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git && cd fast_txtgen_7B && chmod +x requirements && ./requirements
 
 
 enter pwd; after insert line, wait for message to close terminal
@@ -65,28 +65,28 @@ start menu; type cmd and run as Administrator
 to ensure WSL2 is activated and to update:
 
 
-—> wsl --set-version Ubuntu 2 & wsl --update
+	wsl --set-version Ubuntu 2 & wsl --update
 
 
 without closing prompt: start menu; right-click on Ubuntu; more -> pin to taskbar; open windows update and
 check for updates - it will get an update for WSL, after that go back to Admin prompt:
 
 
-—> cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so"
+	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so"
 
 
 close prompt; wait 8s; open Ubuntu
 
 
-—> ./install
+	./install
 
 
-	Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
+Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
 
 
-	After model completes loading, if last line says
-	"To create a public link, set `share=True` in `launch()`.",
-	then you can open your browser and enter this URL:
+After model completes loading, if last line says
+"To create a public link, set `share=True` in `launch()`.",
+then you can open your browser and enter this URL:
 
 
 —> http://127.0.0.1:7860
@@ -95,7 +95,7 @@ close prompt; wait 8s; open Ubuntu
 
 
 
-	Enjoy!
+Enjoy!
 
 
 
