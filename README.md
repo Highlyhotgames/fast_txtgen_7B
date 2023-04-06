@@ -78,7 +78,7 @@ check for updates - it will get an update for WSL, after that go back to Admin p
 close prompt; wait 8s; open Ubuntu
 
 
-	./install
+	./install && python server.py --wbits 4 --model llama-7b-4bit-128g --groupsize 128 --chat
 
 
 Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
