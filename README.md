@@ -55,7 +55,7 @@ close notepad, click on save; close prompt
 when WSL installation ends, enter a new username and pwd
 
 
-	git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git && cd fast_txtgen_7B && chmod +x requirements && ./requirements
+	clear && git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git && cd fast_txtgen_7B && chmod +x requirements && ./requirements
 	
 
 
