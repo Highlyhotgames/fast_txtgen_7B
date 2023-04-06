@@ -32,15 +32,17 @@ of your nvidia driver (make sure it is the “Game ready” version), restart ag
 Instructions:
 
 
-Start menu; type cmd and click on “run as administrator”
+Click on start menu; type cmd and click on “run as administrator”
 
 	wsl --install
 
-restart PC; while WSL continues installation, start menu; type cmd and open
+It will ask to restart PC if this is the first WSL installation on this machine
+After reboot WSL will continue installation...
+While it does, click on start menu; type cmd and open
 
 	notepad .wslconfig
 
-click on yes to create a new file; copy and paste the content below
+Click on yes to create a new file; copy and paste the content below:
 
 
 	[wsl2]
@@ -50,33 +52,36 @@ click on yes to create a new file; copy and paste the content below
 	localhostforwarding=true
 
 
-close notepad, click on save; close prompt
+Close notepad, click on save; close prompt;
 
-when WSL installation ends, enter a new username and pwd
+When WSL installation ends, enter a new username and pwd
 
 
 	clear && git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git > /dev/null 2>&1 && cd fast_txtgen_7B && chmod +x requirements && ./requirements
 	
 
 
-enter pwd; after insert line, wait for message to close terminal
+Enter password; Wait for message to close terminal
 
-start menu; type cmd and run as Administrator
+Click on Start menu; type cmd and run as Administrator
 
-to ensure WSL2 is activated and to update:
+To ensure WSL2 is activated and to update:
 
 
 	wsl --set-version Ubuntu 2 & wsl --update
 
 
-without closing prompt: start menu; right-click on Ubuntu; more -> pin to taskbar; open windows update and
-check for updates - it will get an update for WSL, after that go back to Admin prompt:
+Without closing prompt, click on start menu; right-click on Ubuntu; more -> pin to taskbar;
+
+Open windows update and check for updates - it will get an update for WSL
+
+After update, go back to Admin prompt:
 
 
 	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so"
 
 
-close prompt; wait 8s; open Ubuntu
+Close prompt; open Ubuntu
 
 
 	./install
@@ -87,8 +92,10 @@ When "checking CUDA Installation" it will display a message "release 11.7" in cy
 
 
 After model completes loading, if last line says
+
 "To create a public link, set `share=True` in `launch()`.",
-then you can open your browser and enter this URL:
+
+open your browser and enter this URL:
 
 
 —> http://127.0.0.1:7860
