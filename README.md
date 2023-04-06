@@ -56,6 +56,7 @@ when WSL installation ends, enter a new username and pwd
 
 
 	git clone https://github.com/Highlyhotgames/fast_txtgen_7B.git && cd fast_txtgen_7B && chmod +x requirements && ./requirements
+	
 
 
 enter pwd; after insert line, wait for message to close terminal
@@ -79,6 +80,7 @@ close prompt; wait 8s; open Ubuntu
 
 
 	./install
+	
 
 
 When "checking CUDA Installation" it will display a message "release 11.7" in cyan color.
