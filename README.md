@@ -7,6 +7,8 @@ this tutorial is specifically designed to work with Nvidia graphics cards - and 
 I'll be using my RTX2060 with 6GB to load Llama model 7B with 4-bit quantization,
 but you can try this tutorial with other models that fit your Nvidia hardware.
 
+----------------------------------------------------------------------------------
+
 These instructions are delivered for educational purposes only, and it assumes that you have a fresh install of
 windows 10/11 latest version (and it is obvious that you can try it without having to reinstall Windows).
 
@@ -15,7 +17,8 @@ to minimize the number of steps. This will help you explore these AI models as f
 
 I used some lines "git reset..." to maximize compatibility throughout time.
 
-
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 Software requirements:
 
@@ -27,7 +30,9 @@ check for updates and restart your PC if required.
 Go to nvidia website (or through your Geforce Experience app if u have installed) and install latest version
 of your nvidia driver (make sure it is the “Game ready” version), restart again if required.
 
-
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 Instructions:
 
