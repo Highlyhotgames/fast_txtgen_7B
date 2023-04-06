@@ -81,7 +81,7 @@ close prompt; wait 8s; open Ubuntu
 	./install
 
 
-Need to input password to install CUDA. You should see "release 11.7" in cyan color after CUDA install.
+When "checking CUDA Installation" it will display a message "release 11.7" in cyan color.
 
 
 After model completes loading, if last line says
