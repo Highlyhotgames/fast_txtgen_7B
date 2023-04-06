@@ -66,7 +66,7 @@ When WSL installation ends, enter a new username and pwd
 	
 
 
-Enter password; Wait for message to close terminal
+Wait for message to close terminal
 
 Click on Start menu; type cmd and run as Administrator
 
