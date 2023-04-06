@@ -1,0 +1,5 @@
+safetensors==0.3.0
+datasets==2.10.1
+sentencepiece
+git+https://github.com/huggingface/transformers.git@15641892985b1d77acc74c9065c332cd7c3f7d7f#egg=transformers
+accelerate==0.18.0
