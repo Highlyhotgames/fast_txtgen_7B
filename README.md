@@ -100,12 +100,12 @@ open your browser and enter this URL:
 
 —> http://127.0.0.1:7860
 
- 
- 
- 
-
- 
-
+|
+|
+|
+|
+|
+|
 To start server, open Ubuntu:
 
 	cd webui/text-generation-web-ui
