@@ -114,7 +114,7 @@ open your browser and enter this URL:
 
 To start server, open Ubuntu:
 
-	conda activate webui && cd webui/text-generation-web-ui
+	conda activate webui && cd webui/text-generation-webui
 	
 Run:
 
