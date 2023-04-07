@@ -42,6 +42,7 @@ Click on start menu; type cmd and click on “run as administrator”
 	wsl --install
 
 It will ask to restart PC if this is the first WSL installation on this machine
+----------------------------------------------------------------------------------
 After reboot WSL will continue installation...
 While it does, click on start menu; type cmd and open
 
@@ -78,7 +79,7 @@ To ensure WSL2 is activated and to update:
 
 Without closing prompt, click on start menu; right-click on Ubuntu; more -> pin to taskbar;
 
-Open windows update and check for updates - it will get an update for WSL
+Open windows update and check for updates - it will get an update for WSL;
 
 After update, go back to Admin prompt:
 
@@ -86,7 +87,9 @@ After update, go back to Admin prompt:
 	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so"
 
 
-Close prompt; open Ubuntu
+Close prompt and restart your PC;
+----------------------------------------------------------------------------------
+Open Ubuntu:
 
 
 	./install
