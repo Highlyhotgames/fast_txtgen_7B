@@ -69,9 +69,10 @@ When WSL installation ends, enter a new username and pwd
 
 Wait for message to close terminal
 
+To ensure WSL2 is activated and to update:
+
 Click on Start menu; type cmd and run as Administrator
 
-To ensure WSL2 is activated and to update:
 
 
 	wsl --set-version Ubuntu 2 & wsl --update
@@ -88,7 +89,7 @@ After update, go back to Admin prompt:
 
 
 Close prompt and restart your PC;
-----------------------------------------------------------------------------------
+
 Open Ubuntu:
 
 
