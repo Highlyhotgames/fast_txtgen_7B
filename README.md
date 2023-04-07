@@ -20,8 +20,8 @@ I used some lines "git reset..." to maximize compatibility throughout time.
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
 
-##Software requirements:
-
+Software requirements:
+----------------------------------------------------------------------------------
 
 Open windows update (right-click on start menu; settings; update & security), click on advanced options and
 enable “receive updates for other Microsoft products when you update Windows”, then
@@ -34,8 +34,8 @@ of your nvidia driver (make sure it is the “Game ready” version), restart ag
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
 
-##Instructions:
-
+Instructions:
+----------------------------------------------------------------------------------
 
 Click on start menu; type cmd and click on “run as administrator”
 
