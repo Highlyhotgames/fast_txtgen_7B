@@ -42,8 +42,9 @@ Click on start menu; type cmd and click on “run as administrator”
 	wsl --install
 
 It will ask to restart PC if this is the first WSL installation on this machine
-----------------------------------------------------------------------------------
+
 After reboot WSL will continue installation...
+
 While it does, click on start menu; type cmd and open
 
 	notepad .wslconfig
