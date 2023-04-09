@@ -1,4 +1,5 @@
 #!/bin/bash
+git reset --hard 783bb9a25884f46e748e1550ec3e1951e457e0dc;
 cp install ../; cd .. ; chmod +x install; clear;
 echo -e "\033[1;35mAdding CUDA Paths ...\033[0m";
 echo 'export CUDA_HOME=/usr/local/cuda-11.7' >> ~/.bashrc;
