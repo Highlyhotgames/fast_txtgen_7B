@@ -1,5 +1,6 @@
 #!/bin/bash
 clear; cd webui;
+export PATH=~/miniconda3/envs/webui/bin:$PATH;
 echo -e "\033[1;35mInstalling Miniconda (step 1 of 27) ...\033[0m";
 bash Miniconda3-latest-Linux-x86_64.sh -b > /dev/null 2>&1;
 source ~/miniconda3/etc/profile.d/conda.sh;
@@ -15,7 +16,7 @@ conda activate webui > /dev/null 2>&1;
 echo -e "\033[1;31mInstalling CUDA, this will take a while (step 6 of 27) ...\033[0m";
 conda install -c conda-forge cudatoolkit-dev --yes > /dev/null 2>&1;
 echo -e "\033[1;35mFinished CUDA installation, restarting Miniconda 'webui' (step 8 of 27) ...\033[0m";
-conda deactivate; conda deactivate; source ~/miniconda3/etc/profile.d/conda.sh;
+source ~/miniconda3/etc/profile.d/conda.sh;
 . ~/.bashrc; ~/miniconda3/bin/conda init > /dev/null 2>&1;
 conda activate webui > /dev/null 2>&1;
 echo -e "\033[32mCloning Bits and Bytes from TimDettmers (step 9 of 27) ...\033[0m";
