@@ -86,10 +86,8 @@ Open windows update and check for updates - it will get an update for WSL;
 After update, go back to Admin prompt:
 
 
-	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so"
+	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so" & wsl --shutdown & exit
 
-
-Close prompt and restart your PC;
 
 Open Ubuntu:
 
@@ -101,12 +99,8 @@ Open Ubuntu:
 When "checking CUDA Installation" it will display a message "release 11.7" in cyan color.
 
 
-After model completes loading, if last line says
-
-"To create a public link, set `share=True` in `launch()`.",
-
-open your browser and enter this URL:
-
+After installation you may run server with ./run.
+Default URL:
 
 —> http://127.0.0.1:7860
 
