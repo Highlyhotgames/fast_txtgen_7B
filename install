@@ -50,7 +50,7 @@ cd ../..;
 echo -e "\033[1;35mPatching requirements.txt file of oobabooga text-generation-webui (step 23 of 26) ...\033[0m";
 rm requirements.txt;
 cp ~/fast_txtgen_7B/req_2 requirements.txt;
-cp ~/fast_txtgen_7B/settings.json settings.json
+cp ~/fast_txtgen_7B/settings.json settings.json;
 echo -e "\033[32mInstalling pip requirements for Text Generation WebUI (step 24 of 26) ...\033[0m";
 pip install -r requirements.txt > /dev/null 2>&1;
 echo -e "\033[32mConverting magnet link to a .torrent file (step 25 of 26) ...\033[0m";
