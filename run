@@ -1,3 +1,6 @@
 #!/bin/bash
+echo -e "\033[1;35mActivating Miniconda env 'webui' ...\033[0m";
+conda activate webui > /dev/null 2>&1;
 cd webui/text-generation-webui;
+echo -e "\033[1;35mRunning server ...\033[0m";
 python server.py --wbits 4 --model llama-7b-4bit-128g --groupsize 128 --chat
