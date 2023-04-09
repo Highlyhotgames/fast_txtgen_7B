@@ -15,7 +15,6 @@ windows 10/11 latest version (and it is obvious that you can try it without havi
 While we will need to restart the Ubuntu terminal a few times, I've done my best to simplify the instructions
 to minimize the number of steps. This will help you explore these AI models as fast as possible.
 
-I used some lines "git reset..." to maximize compatibility throughout time.
 
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
