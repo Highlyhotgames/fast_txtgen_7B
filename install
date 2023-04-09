@@ -61,4 +61,5 @@ cd models/LLaMA-HF-4bit-128g;
 mv llama-7b-4bit-128g ../;
 cd ..; rm -r LLaMA-HF-4bit-128g; cd ..;
 echo -e "\033[1;34mInstalled successfully! To run server: ./run \033[0m";
-cp ~/fast_txtgen_7B/run ~/
+cp ~/fast_txtgen_7B/run ~/;
+chmod +x run
