@@ -59,7 +59,7 @@ echo -e "\033[32mDownloading LLaMA 7B (step 26 of 26) ...\033[0m";
 aria2c LLaMA-HF-4bit-128g.torrent --select-file=2-7,25 -d ~/webui/text-generation-webui/models --auto-file-renaming=false --quiet=false --allow-overwrite=true --max-connection-per-server=4 --seed-time=0 --summary-interval=0 --disable-ipv6=true;
 cd models/LLaMA-HF-4bit-128g;
 mv llama-7b-4bit-128g ../;
-cd ..; rm -r LLaMA-HF-4bit-128g; cd ..;
+cd ..; rm -r LLaMA-HF-4bit-128g;
 echo -e "\033[1;34mInstalled successfully! To run server: ./run \033[0m";
 cp ~/fast_txtgen_7B/run ~/;
-chmod +x run
+chmod +x ~/run
