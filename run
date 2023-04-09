@@ -1,2 +1,3 @@
 #!/bin/bash
+cd webui/text-generation-webui;
 python server.py --wbits 4 --model llama-7b-4bit-128g --groupsize 128 --chat
