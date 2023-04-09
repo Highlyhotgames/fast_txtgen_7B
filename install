@@ -26,7 +26,7 @@ cd bitsandbytes; git reset --hard 49a04253fb1f3e195cb0e9e79bdb01db7a490774 > /de
 echo -e "\033[32mInstalling pip requirements for Bitsandbytes (step 11 of 25) ...\033[0m";
 pip install -r requirements.txt > /dev/null 2>&1;
 echo -e "\033[1;31mMaking CUDA to 117 (step 12 of 25) ...\033[0m";
-CUDA_VERSION=117 make cuda11x;
+CUDA_VERSION=117 make cuda11x > /dev/null 2>&1;
 echo -e "\033[0;37mInstalling setup.py from Bitsandbytes (step 13 of 25) ...\033[0m";
 python setup.py install > /dev/null 2>&1; cd ..;
 echo -e "\033[32mCloning Text Generation WebUI from Oobabooga (step 14 of 25) ...\033[0m";
