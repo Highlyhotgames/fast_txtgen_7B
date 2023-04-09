@@ -101,7 +101,7 @@ When "checking CUDA Installation" it will display a message "release 11.7" in cy
 
 After installation you may run server:
 
-	./run.
+	./run
 
 Default URL:
 
