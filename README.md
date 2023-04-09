@@ -68,7 +68,7 @@ When WSL installation ends, enter a username and a password
 	
 
 
-Wait for message to close terminal
+Enter password and wait for message to close terminal; close
 
 To ensure WSL2 is activated and to update:
 
@@ -79,11 +79,9 @@ Click on Start menu; type cmd and run as Administrator
 	wsl --set-version Ubuntu 2 & wsl --update
 
 
-Without closing prompt, click on start menu; right-click on Ubuntu; more -> pin to taskbar;
+Without closing prompt, open windows update and check for updates - it will get an update for WSL;
 
-Open windows update and check for updates - it will get an update for WSL;
-
-After update, go back to Admin prompt:
+After update, go back to Admin prompt and run this line:
 
 
 	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so" & wsl --shutdown & exit
