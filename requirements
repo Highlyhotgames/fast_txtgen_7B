@@ -1,9 +1,5 @@
 #!/bin/bash
 cp install ../; cd .. ; chmod +x install; clear;
-echo -e "\033[1;35mAdding CUDA Paths ...\033[0m";
-echo 'export CUDA_HOME=/usr/local/cuda-11.7' >> ~/.bashrc;
-echo 'export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc;
-echo 'export PATH=${CUDA_HOME}/bin:${PATH}' >> ~/.bashrc;
 echo -e "\033[1;34mAdding Universe APT repository to Ubuntu, insert your password:\033[0m";
 sudo add-apt-repository universe -y > /dev/null;
 echo -e "\033[1;35mUpdating Ubuntu...\033[0m";
