@@ -99,7 +99,10 @@ Open Ubuntu:
 When "checking CUDA Installation" it will display a message "release 11.7" in cyan color.
 
 
-After installation you may run server with ./run.
+After installation you may run server:
+
+	./run.
+
 Default URL:
 
 —> http://127.0.0.1:7860
