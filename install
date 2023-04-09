@@ -12,7 +12,7 @@ echo -e "\033[1;35mCreating Miniconda env named webui with Python v3.10.9 (step 
 conda create -n webui python=3.10.9 --yes > /dev/null 2>&1;
 echo -e "\033[1;35mActivating Miniconda env 'webui' (step 5 of 26) ...\033[0m";
 conda activate webui > /dev/null 2>&1;
-echo -e "\033[1;34mInstalling CUDA, this will take a while: (step 6 of 26) \033[0m";
+echo -e "\033[1;31mInstalling CUDA, this will take a while: (step 6 of 26) \033[0m";
 conda install -c conda-forge cudatoolkit-dev --yes > /dev/null 2>&1;
 echo -e "\033[1;35mFinished CUDA installation ...\033[0m";
 echo -e "\033[32mCloning Bits and Bytes from TimDettmers (step 8 of 26) ...\033[0m";
