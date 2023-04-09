@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -e "\033[1;35mActivating Miniconda env 'webui' ...\033[0m";
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate webui > /dev/null 2>&1;
+cd webui/text-generation-webui;
