@@ -83,13 +83,13 @@ Without closing prompt, open windows update and check for updates - it will get 
 After update, go back to Admin prompt and run this line:
 
 
-	cd lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so" & wsl --shutdown & exit
+	cd C:\Windows\System32\lxss\lib & del libcuda.so & del libcuda.so.1 & wsl -e /bin/bash -c "ln -s libcuda.so.1.1 libcuda.so.1 && ln -s libcuda.so.1.1 libcuda.so" & wsl --shutdown & exit
 
 
 Open Ubuntu:
 
 
-	./install
+	~/install
 	
 
 
@@ -98,7 +98,7 @@ When "checking CUDA Installation" it will display a message "release 11.7" in cy
 
 After installation you may run server:
 
-	./run
+	~/run
 
 Default URL:
 
