@@ -1,3 +1,5 @@
+## Deprecated, this project's functionality is now obsolete since oobabooga's text-generation-webui now has an easy installer. This repo is just for educational purposes.
+
 # Installation Script for LLaMa 7B 4bit 128g on WSL
 
 
